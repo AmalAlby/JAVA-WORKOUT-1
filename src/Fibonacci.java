@@ -19,8 +19,11 @@ public class Fibonacci {
         fib f1=new fib();
         for(int i=0;i<num;i++){
             int result=f1.find_fibonacci(i);
-            if(result>=num){
+            if(result<=num){
               System.out.print(result+" ");
+            }
+            else{
+              break;
             }
         }
     }
